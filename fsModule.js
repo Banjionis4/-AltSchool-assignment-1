@@ -25,7 +25,7 @@ fs.rename(folder, updatedFolder, (err) => {
 
 // Q4 Write File
 userFile = updatedFolder + "/user.js";
-fs.writeFile(userFile, `${"Name: Onifaade Olabanji"}`, (err) => {
+fs.writeFile(userFile, `${"Name: Onifade Olabanji"}`, (err) => {
   if (err) throw err;
 });
 
